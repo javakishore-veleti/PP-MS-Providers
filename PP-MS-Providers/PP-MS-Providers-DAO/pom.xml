@@ -11,4 +11,16 @@
 	<artifactId>PP-MS-Providers-DAO</artifactId>
 	<packaging>jar</packaging>
 	<name>PP-MS-Providers-DAO</name>
+	<dependencies>
+		<dependency>
+			<groupId>jk.provider.portal.ms.providers</groupId>
+			<artifactId>PP-MS-Providers-Domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.commons</groupId>
+			<artifactId>PP-MS-Commons-Libs</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
