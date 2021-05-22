@@ -11,4 +11,26 @@
 	<artifactId>PP-MS-Providers-Service</artifactId>
 	<packaging>jar</packaging>
 	<name>PP-MS-Providers-Service</name>
+	<dependencies>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Domain</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.engineering.foundations</groupId>
+			<artifactId>PP-Engg-Common-Service</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.providers</groupId>
+			<artifactId>PP-MS-Providers-DAO</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
 </project>
