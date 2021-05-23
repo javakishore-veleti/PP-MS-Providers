@@ -11,7 +11,8 @@ import jk.pp.ms.commons.configs.MSCommonGlobalConfig;
 import jk.pp.ms.commons.configs.MSType;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "jk.pp.ms.providers.domain", "jk.pp.ms.providers.dao", "jk.pp.ms.providers.service" })
+@ComponentScan(basePackages = { "jk.pp.ms.providers.domain", "jk.pp.ms.providers.dao", "jk.pp.ms.providers.service",
+		"jk.pp.ms.providers.web" })
 @EntityScan(basePackages = { "jk.pp.ms.providers.domain" })
 @EnableJpaRepositories(basePackages = { "jk.pp.ms.providers.dao" })
 @Import(value = { MSCommonGlobalConfig.class })
