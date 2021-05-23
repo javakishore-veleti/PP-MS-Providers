@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import jk.pp.engg.foundations.common.service.core.AppCrudServiceImpl;
-import jk.pp.ms.providers.dao.ProviderTypeDAO;
+import jk.pp.ms.providers.dao.ProviderTypeCrudDAO;
 import jk.pp.ms.providers.domain.ProviderType;
 import jk.pp.ms.providers.domain.ProviderTypeCrudDTO;
 
@@ -15,7 +15,7 @@ public class ProviderTypeCrudServiceImpl extends AppCrudServiceImpl<ProviderType
 	public static final String BEAN_ID = ProviderTypeCrudServiceImpl.class.getSimpleName();
 
 	@Autowired
-	public ProviderTypeCrudServiceImpl(ProviderTypeDAO crudDAO) {
+	public ProviderTypeCrudServiceImpl(ProviderTypeCrudDAO crudDAO) {
 		super.setCrudServiceImplRefId(BEAN_ID);
 		super.setCrudDAO(crudDAO);
 	}

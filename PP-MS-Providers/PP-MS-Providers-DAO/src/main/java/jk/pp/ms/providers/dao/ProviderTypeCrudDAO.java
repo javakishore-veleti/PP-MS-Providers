@@ -6,6 +6,6 @@ import jk.pp.engg.foundations.common.dao.core.AppDomainNameDescCrudDAO;
 import jk.pp.ms.providers.domain.ProviderType;
 
 @Repository
-public interface ProviderTypeDAO extends AppDomainNameDescCrudDAO<ProviderType> {
+public interface ProviderTypeCrudDAO extends AppDomainNameDescCrudDAO<ProviderType> {
 
 }
