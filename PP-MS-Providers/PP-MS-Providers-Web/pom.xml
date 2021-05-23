@@ -41,5 +41,15 @@
 			<groupId>jk.provider.portal.ms.commons</groupId>
 			<artifactId>PP-MS-Commons-Libs</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.providers</groupId>
+			<artifactId>PP-MS-Providers-Domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.providers</groupId>
+			<artifactId>PP-MS-Providers-Service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 </project>

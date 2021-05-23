@@ -29,6 +29,11 @@
 		</dependency>
 		<dependency>
 			<groupId>jk.provider.portal.ms.providers</groupId>
+			<artifactId>PP-MS-Providers-Domain</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>jk.provider.portal.ms.providers</groupId>
 			<artifactId>PP-MS-Providers-DAO</artifactId>
 			<version>${project.version}</version>
 		</dependency>
